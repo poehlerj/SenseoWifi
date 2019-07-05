@@ -6,9 +6,9 @@
 #ifndef SenseoLed_h
 #define SenseoLed_h
 
-#include "Homie.h"
 #include "enums.h"
 #include "constants.h"
+#include "Arduino.h"
 
 class SenseoLed
 {

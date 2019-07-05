@@ -7,7 +7,7 @@
 #ifndef SenseoConstants_h
 #define SenseoConstants_h
 
- #define senseoWifiFWVersion "1.0.0";
+#define senseoWifiFWVersion "1.0.0";
 
 // LED state machine
 // Measure your timings by activating debugging in ledChangedRoutine()

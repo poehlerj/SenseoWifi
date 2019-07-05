@@ -6,7 +6,7 @@
 #ifndef SenseoSM_h
 #define SenseoSM_h
 
-#include "Homie.h"
+#include "Arduino.h"
 #include "enums.h"
 #include "constants.h"
 

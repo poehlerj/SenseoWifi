@@ -8,20 +8,27 @@
 #define SenseoEnums_h
 
 enum ledStateEnum {
-  LED_unknown,
-  LED_OFF,
-  LED_SLOW,
-  LED_FAST,
-  LED_ON
+    LED_unknown,
+    LED_OFF,
+    LED_SLOW,
+    LED_FAST,
+    LED_ON
 };
 
 enum senseoStateEnum {
-  SENSEO_unknown,
-  SENSEO_OFF,
-  SENSEO_HEATING,
-  SENSEO_READY,
-  SENSEO_BREWING,
-  SENSEO_NOWATER
+    SENSEO_unknown,
+    SENSEO_OFF,
+    SENSEO_HEATING,
+    SENSEO_READY,
+    SENSEO_BREWING,
+    SENSEO_NOWATER
+};
+
+enum remoteCommand {
+    POWER_ON,
+    POWER_OFF,
+    BREW_1_CUP,
+    BREW_2_CUPS
 };
 
 #endif

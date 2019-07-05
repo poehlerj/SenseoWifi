@@ -7,16 +7,10 @@ Released under some license.
 #ifndef SenseoPins_h
 #define SenseoPins_h
 
-// circuit pin definitions      // PCB v1.6
-#define ocPressLeftPin D5       // T1
-#define ocPressRightPin D2      // T2
-#define ocPressPowerPin D1      // TP
-#define ocSenseLedPin D7        // LED
-#define cupDetectorPin D6       // TCRT5000 D0
-#define beeperPin D8            // BUZZER
-#define resetButtonPin D4       //
-#define cupDetectorAnalogPin A0 // TCRT5000 A0
-
-// Reset: D3 doesn't work (why?), D0 okay, D4 needs LED off
+#define ocPressLeftPin D2       // T1 - D2
+#define ocPressRightPin D0      // T2 - D0
+#define ocPressPowerPin D1      // TP - D1
+#define ocSenseLedPin D7        // LED - D7
+#define beeperPin D8            // BUZZER - D8
 
 #endif
