@@ -8,8 +8,8 @@ Released under some license.
 #define SenseoPins_h
 
 // circuit pin definitions      // PCB v1.6
-#define ocPressLeftPin D5       // T1
-#define ocPressRightPin D2      // T2
+#define ocPressLeftPin D2       // T1
+#define ocPressRightPin D0      // T2
 #define ocPressPowerPin D1      // TP
 #define ocSenseLedPin D7        // LED
 #define cupDetectorPin D6       // TCRT5000 D0
